@@ -31,6 +31,7 @@ body{}
 
 .hero .container{
     display: flex;
+    position: relative;
 }
 .hero span{
     color: #FFF;
@@ -74,6 +75,6 @@ body{}
 
 .hero .container .card{
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -233px;
+    bottom: -267px;
 }
