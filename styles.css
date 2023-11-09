@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter','sans-serif';
+}
+
+
+body{
+}
+
+.hero{
+    background: url('./assets/Banner.png') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero span{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero button{
+    border-radius: 99999px;
+    background: var(--Amarelo, #FFC800);
+    padding: 16px 38px;
+    
+}
