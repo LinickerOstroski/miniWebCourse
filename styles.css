@@ -6,12 +6,18 @@
 }
 
 
-body{
+body{}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .hero{
     background: url('./assets/Banner.png') no-repeat center center;
     background-size: cover;
+    padding: 100px 0px;
 }
 
 .hero h1{
@@ -23,6 +29,9 @@ body{
     line-height: normal;
 }
 
+.hero .container{
+    display: flex;
+}
 .hero span{
     color: #FFF;
 
@@ -37,5 +46,34 @@ body{
     border-radius: 99999px;
     background: var(--Amarelo, #FFC800);
     padding: 16px 38px;
-    
+    border: none;
+ 
+    color: #614D04;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.hero .text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+    max-width: 674px;
+}
+
+.hero .text span{
+    margin: 24px 0px;
+}
+
+.hero .text h1{
+    margin-top: 38px;
+    width: 100%;
+    max-width: 540px;
+}
+
+.hero .container .card{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
